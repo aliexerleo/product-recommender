@@ -4,3 +4,4 @@ langchain-community
 langchain-openai
 faiss-cpu
 sentence-transformers
+hf_xet

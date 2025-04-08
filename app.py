@@ -1,7 +1,8 @@
 import streamlit as st
-from langchain.embeddings import HuggingFaceEmbeddings
-from langchain.vectorstores import FAISS
-
+from langchain_community.embeddings import HuggingFaceEmbeddings
+#from langchain.embeddings import HuggingFaceEmbeddings
+#from langchain.vectorstores import FAISS
+from langchain_community.vectorstores import FAISS
 
 # Cargar base de datos de productos
 example_productos = [
